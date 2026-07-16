@@ -1,0 +1,10 @@
+{
+  "nav": {"about":"Sobre","skills":"Competências","projects":"Projetos","experience":"Experiência","contact":"Contato","resume":"Currículo"},
+  "hero": {"eyebrow":"Sistemas que conectam o essencial","title":"OTÁVIO\nVALASCO","role":"Software Engineer","cta":"Ver projetos","scroll":"Explore"},
+  "about": {"label":"01 / Perfil","title":"Engenharia para operações que não podem parar.","body":"Desenvolvedor Full Stack especializado em React, Django, Python e integrações SAP. Atua desenvolvendo aplicações corporativas para plantas industriais da América Latina.","availability":"Disponível para desafios"},
+  "skills": {"label":"02 / Stack","title":"Tecnologia aplicada com intenção."},
+  "projects": {"label":"04 / Projetos","title":"Produtos para o mundo real.","view":"Ver caso"},
+  "experience": {"label":"05 / Trajetória","title":"Do processo à interface."},
+  "contact": {"label":"06 / Contato","title":"Vamos construir algo essencial?","copy":"Copiar e-mail","copied":"E-mail copiado"},
+  "terminal": {"title":"terminal — raven","hint":"Digite help para explorar"}
+}

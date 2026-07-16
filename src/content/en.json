@@ -1,0 +1,10 @@
+{
+  "nav": {"about":"About","skills":"Skills","projects":"Projects","experience":"Experience","contact":"Contact","resume":"Resume"},
+  "hero": {"eyebrow":"Systems connecting what matters","title":"OTÁVIO\nVALASCO","role":"Software Engineer","cta":"View projects","scroll":"Explore"},
+  "about": {"label":"01 / Profile","title":"Engineering for operations that cannot stop.","body":"Full Stack developer specialized in React, Django, Python and SAP integrations. Builds corporate applications for industrial plants across Latin America.","availability":"Open to new challenges"},
+  "skills": {"label":"02 / Stack","title":"Technology used with intention."},
+  "projects": {"label":"04 / Projects","title":"Products for the real world.","view":"View case"},
+  "experience": {"label":"05 / Journey","title":"From process to interface."},
+  "contact": {"label":"06 / Contact","title":"Shall we build something essential?","copy":"Copy email","copied":"Email copied"},
+  "terminal": {"title":"terminal — raven","hint":"Type help to explore"}
+}
