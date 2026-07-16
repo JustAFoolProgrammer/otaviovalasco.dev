@@ -4,10 +4,10 @@ import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import Lenis from 'lenis'
 import { ArrowDown, ArrowUpRight, Check, ChevronRight, Circle, Code2, Copy, Linkedin, Moon, Send, Sun, TerminalSquare } from 'lucide-react'
-import pt from '@/content/pt.json'
-import en from '@/content/en.json'
-import { usePreferences } from '@/hooks/usePreferences'
-const VisualField = lazy(() => import('@/components/VisualField'))
+import pt from './content/pt.json'
+import en from './content/en.json'
+import { usePreferences } from './hooks/usePreferences'
+const VisualField = lazy(() => import('./components/VisualField'))
 gsap.registerPlugin(ScrollTrigger)
 const skills = ['React','TypeScript','Python','Django','Django REST','Material UI','Tailwind','Docker','Redis','Celery','SQL Server','SAP ECC','SAP IDoc','OData','Linux','Git','Bitbucket','WSL']
 const projects = [{title:'Warehouse Management',desc:'Operação, inventário e rastreabilidade em um único fluxo.',tags:['React','Django','SAP']},{title:'Production Dashboard',desc:'Visibilidade da produção para decisões em tempo real.',tags:['TypeScript','REST API','SQL']},{title:'SAP Integrations',desc:'Integrações resilientes entre processos e dados críticos.',tags:['Python','IDoc','Celery']},{title:'Industrial Label Printing',desc:'Automação de impressão onde precisão é essencial.',tags:['React','Docker','SAP']}]
