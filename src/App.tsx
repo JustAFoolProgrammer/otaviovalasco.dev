@@ -34,6 +34,6 @@ function App() {
  <section id="experience" className="section experience"><Reveal><Label>{t.experience.label}</Label><h2>{t.experience.title}</h2><div className="experience-list">{[['2024 — now','Software Engineer','Corporate applications · LATAM'],['2022 — 2024','Full Stack Developer','Industrial systems · Integrations'],['2020 — 2022','Software Developer','Interfaces · Automation']].map(x=><div key={x[0]}><span>{x[0]}</span><b>{x[1]}</b><small>{x[2]}</small></div>)}</div></Reveal></section>
  <Terminal t={t.terminal}/>
  <section id="contact" className="section contact"><Reveal><Label>{t.contact.label}</Label><h2>{t.contact.title}</h2><div className="contact-grid"><a className="contact-card card" href="https://www.linkedin.com/in/otaviovalasco/" target="_blank" rel="noreferrer"><Linkedin size={20}/><span>LinkedIn</span><ArrowUpRight size={18}/></a><button className="contact-card card email-card" onClick={copy} aria-label="Copiar e-mail"><Send size={20}/><div className="contact-content"><strong>Email</strong><span className="email-address">{copied?t.contact.copied:'ovalasco@gmail.com'}</span></div>{copied?<Check size={18}/>:<Copy size={18}/>}</button></div></Reveal></section>
- </main><footer><span>© {new Date().getFullYear()} Otávio Valasco</span><span>RAVEN / DIGITAL SYSTEMS</span></footer></>
+ </main><footer><span>© {new Date().getFullYear()} Otávio Valasco</span><span>DevCrow Dynamics / DIGITAL SYSTEMS</span></footer></>
 }
 export default App

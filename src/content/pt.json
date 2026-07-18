@@ -6,5 +6,5 @@
   "projects": {"label":"04 / Projetos","title":"Produtos para o mundo real.","view":"Ver caso"},
   "experience": {"label":"05 / Trajetória","title":"Do processo à interface."},
   "contact": {"label":"06 / Contato","title":"Vamos construir algo essencial?","copy":"Copiar e-mail","copied":"E-mail copiado"},
-  "terminal": {"title":"terminal — raven","hint":"Digite help para explorar"}
+  "terminal": {"title":"terminal — devcrow dynamics","hint":"Digite help para explorar"}
 }
